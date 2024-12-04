@@ -4,6 +4,7 @@ import { useEditor, EditorContent } from '@tiptap/react'
 
 import { useEditorStore } from '@/store/use-editor-store'
 import { FontSizeExtension } from '@/extensions/font-size'
+import { LineHeightExtension } from '@/extensions/line-height'
 
 import { Color } from '@tiptap/extension-color'
 import Highlight from '@tiptap/extension-highlight'
@@ -58,6 +59,7 @@ export const Editor = () => {
     },
     extensions: [
       StarterKit,
+      LineHeightExtension,
       FontSizeExtension,
       TextAlign.configure({
         types: ["heading", "paragraph", "blockquote", "list_item", "table_cell"],
