@@ -92,9 +92,6 @@ export const Editor = () => {
       Image,
       ImageResize,
     ],
-    content: `
-        
-      `,
   })
 
   return ( 
