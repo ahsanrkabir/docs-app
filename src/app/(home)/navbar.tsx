@@ -5,7 +5,7 @@ import { SearchInput } from "./search-input"
 export const Navbar = () => {
   return (
     <nav className="flex items-center justify-between h-full w-full">
-        <Link href="/" className="flex gap-3 items-center shrink-0">
+        <Link href="/" className="flex gap-2 items-center shrink-0">
           <Image
             src="/logo.svg"
             alt="Logo"
