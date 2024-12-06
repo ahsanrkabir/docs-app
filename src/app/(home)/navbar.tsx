@@ -12,7 +12,7 @@ export const Navbar = () => {
             width={36}
             height={36}
           />
-          <h3 className="text-xl">Docs</h3>
+          <h3 className="text-2xl text-blue-700">Docs</h3>
         </Link>
 
         <SearchInput />
